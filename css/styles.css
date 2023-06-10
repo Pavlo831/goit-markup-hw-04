@@ -523,6 +523,10 @@ margin-bottom: 8px
   height: 40px;
 
  }
+ .footer-soc {
+  align-items: baseline;
+  margin-right: 120px;
+ }
 
 .footer-soc-link {
   width: 100%;
@@ -532,11 +536,8 @@ margin-bottom: 8px
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  }
 
-
-
-}
 
 .paragraf-soc{
   font-weight: 500;
