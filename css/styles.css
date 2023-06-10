@@ -155,16 +155,17 @@ margin-left: auto;
 
 
 .hero {
-  padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(0, 0, 0, 0.25)), 
   url(../images/heroimage.jpg);
-  background-size: 1440px;
+  max-width: 1440px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
+  padding: 188px 0;
   
-
+    
 }
 
 
@@ -275,6 +276,8 @@ width: calc((100% - 72px) / 4);
   color: #2e2f42;
   margin-bottom: 8px;
   
+
+  
 }
 .title-list-portfolio {
 background-color: #ffffff;
@@ -333,8 +336,10 @@ gap: 24px;
   }
  
   .box-fon {
+  display: flex;
   box-sizing: border-box;
-
+align-items: center;
+justify-content: center
 width: 264px;
 height: 112px;
 
