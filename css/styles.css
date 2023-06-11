@@ -471,6 +471,24 @@ margin-bottom: 8px
       align-items: center;
       
     }
+    .customers-icon-link { 
+      width: 100%;
+      height: 100%;
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8e8f99;
+
+    }
+    .customers-icon-link:hover,
+    .customers-icon-link:focus {
+      border-color: #404bbf;
+      color: #404bbf;
+      border-color: #404bbf;
+      color: #404bbf;
+    }
 
     
   
