@@ -483,10 +483,9 @@ margin-bottom: 8px
       align-items: center;
       justify-content: center;
       color: #8e8f99;
-
-    }
-    .customers-icon {
       fill: currentColor;
+
+         
     }
 
     .customers-icon-link:hover,
