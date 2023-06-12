@@ -594,6 +594,16 @@ margin-bottom: 8px
   height: 72px;
 
 }
+.soc-footer {
+display: flex;
+align-items: baseline;
+}
+
+.footer-logo {
+  margin-right: 120px;
+
+}
+
 .footer-soc-logo {
   display: flex;
   gap: 16px;
@@ -619,6 +629,10 @@ margin-bottom: 8px
   display: flex;
   align-items: center;
   justify-content: center;
+  }
+
+  .footer-soc-icon {
+    fill:#f4f4fd;
   }
 
 
