@@ -356,6 +356,8 @@ gap: 24px;
 .team-soc-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .team-soc-link {
@@ -367,6 +369,14 @@ gap: 24px;
   align-items: center;
   justify-content: center;
 
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
+.team-soc-icon {
+  fill:#f4f4fd;
 }
 
 .title-item-text {
@@ -457,6 +467,7 @@ margin-bottom: 8px
   margin: 0 auto;
   padding: 120px 0;
   padding: 32px 16px;
+  
 }
 
 
