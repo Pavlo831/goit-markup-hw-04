@@ -231,7 +231,7 @@ margin-left: auto;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   
    
@@ -354,7 +354,7 @@ gap: 24px;
 .team-soc-item {
   width: 40px;
   height: 40px;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -514,7 +514,7 @@ margin-bottom: 8px
 
     .link-portfolio {
       display: block;
-      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
         .link-portfolio:hover,
         .link-portfolio:focus {
@@ -549,7 +549,7 @@ margin-bottom: 8px
            height: 100%;
             width: 100%;
             transform: translateY(100%); 
-            transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
             
 
 
@@ -604,7 +604,7 @@ margin-bottom: 8px
       height: 100%;
       border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
          
     }
@@ -702,7 +702,7 @@ align-items: baseline;
   .footer-soc-link:hover, 
   .footer-soc-link:focus {
     background-color: #31d0aa;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
