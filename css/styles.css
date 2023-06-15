@@ -661,11 +661,11 @@ margin-bottom: 8px
 .footer-text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.0;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  height: 72px;
+  
 
 }
 .soc-footer {
