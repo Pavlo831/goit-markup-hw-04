@@ -367,7 +367,7 @@ gap: 24px;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  margin-top: 8px;
 }
 
 .team-soc-link:hover,
@@ -465,7 +465,7 @@ margin-bottom: 8px
   margin: 0 auto;
   padding: 120px 0;
   padding: 32px 0;
-  
+    
 }
 
 
